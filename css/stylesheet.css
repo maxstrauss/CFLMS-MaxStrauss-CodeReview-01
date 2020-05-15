@@ -229,6 +229,16 @@ input {
 /* Blog */
 
 
-#blog {
-    padding-top: 70px;
+#eb110{
+    padding-top: 50px;
+}
+
+#eb110-pic{
+    width: 616px;
+}
+
+#eb110 div {
+    margin-left: 46px;
+    margin-right: 46px;
+    text-align: left;
 }
