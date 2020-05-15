@@ -4,7 +4,9 @@ body {
     margin-top: 0px;
 }
 
+
 /* Header */
+
 
 header {
     background-color: #cabbb7;
@@ -180,10 +182,10 @@ h1 {
 
 #contactform {
     text-align: center;
-    
+
 }
 
-#contact-message{
+#contact-message {
     background-color: #cabbb7;
 
 }
@@ -197,28 +199,21 @@ select {
     background-color: #cabbb7;
 }
 
-input  {
+input {
     background-color: #cabbb7;
 
 }
 
-
-
-#submitbutton  {
+#submitbutton {
     background-color: #c65252;
 
 }
 
-
-#contact-message{
+#contact-message {
     width: 233px;
     height: 200px;
     max-width: 720px;
 }
-
-
-
-
 
 
 /* About */
@@ -229,7 +224,6 @@ input  {
     margin-left: 46px;
     text-align: left;
 }
-
 
 
 /* Blog */
