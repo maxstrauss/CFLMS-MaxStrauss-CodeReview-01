@@ -23,9 +23,9 @@
     <div class="navbar">
         <ul>
             <div class="navbar-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#about">About me</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About me</a></li>
                 <li><a class="contact" href="#contact">Contact</a></li>
             </div>
         </ul>
@@ -33,30 +33,40 @@
 
     <main>
 
-        <div>
-            <h1>This is my first
-                <br>website :D<h1>
-        </div>
+        <form id="contactform" action="action_page.php">
 
+            <h1>Contact form</h1>
 
-        <div>
-            <image id="phone" src="img/Phone1.png" alt="Phone Picture">
-                <p id="phone-text">Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</p>
-        </div>
-
-        <div id="twopics">
-            <div id="atm-div">
-                <image id="atm" src="img/Debit_card_ATM.jpg" alt="ATM Picture">
-                    <p id="atm-text">Police are investigating three ATM
-                        <br>explosions in two Florida counties</p>
-            </div>
-
-            <div id ="scooter-div">
-                <image id="scooter" src="img/Taxify-Scooters.jpg" alt="Scooter Picture">
-                    <p id="scooter-text">E-scooter Bolt pulls out of 12
-                    <br>cities</p>
-            </div>
-        </div>
+            First name:
+            <br>
+            <input type="text" name="firstname" placeholder="First name" style="width: 233px"><br>
+            <br>
+            Last name:
+            <br>
+            <input type="text" name="lastname" placeholder="Last name" style="width: 233px"><br />
+            <br>
+            Do you like CodeFactory?: <br>
+            <input type="radio" name="like" value="yes" checked>Yes<br />
+            <input type="radio" name="like" value="no">No<br />
+            <br>
+            Why are you contacting me? 
+            <br />
+            <select name="subject">
+                    <option>Subject</option>
+                    <option>Complaint</option>
+                    <option>Praise</option>
+                    <option>Business inquiry</option>
+                    <option>Other</option>
+                </select>
+                <br>
+                <br>
+                Your inquiry: 
+                <br>
+                <textarea id="contact-message">Message.</textarea>
+                <br>
+                <br>
+                <input id="submitbutton" type="submit" value="Submit your data">
+        </form>
 
     </main>
 

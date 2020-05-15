@@ -129,7 +129,7 @@ h1 {
 #atm-text {
     font-weight: bold;
     font-size: 17px;
-    
+
 }
 
 /*Scooter Picture*/
@@ -172,4 +172,69 @@ h1 {
     height: 20px;
     padding-top: 10px;
     font-size: 13px;
+}
+
+
+/* Contact Form */
+
+
+#contactform {
+    text-align: center;
+    
+}
+
+#contact-message{
+    background-color: #cabbb7;
+
+}
+
+#contactform h1 {
+    margin-bottom: 20px;
+}
+
+select {
+    width: 233px;
+    background-color: #cabbb7;
+}
+
+input  {
+    background-color: #cabbb7;
+
+}
+
+
+
+#submitbutton  {
+    background-color: #c65252;
+
+}
+
+
+#contact-message{
+    width: 233px;
+    height: 200px;
+    max-width: 720px;
+}
+
+
+
+
+
+
+/* About */
+
+
+#about {
+    padding-top: 70px;
+    margin-left: 46px;
+    text-align: left;
+}
+
+
+
+/* Blog */
+
+
+#blog {
+    padding-top: 70px;
 }
