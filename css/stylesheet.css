@@ -47,6 +47,7 @@ header {
     width: 39%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .navbar ul {
@@ -60,6 +61,8 @@ header {
 
 .navbar-links {
     float: right;
+    padding-right: 7.5%;
+
 }
 
 .navbar li {
@@ -158,7 +161,7 @@ h1 {
 }
 
 .logo-footer {
-    width: 150px;
+    width: 20%;
     padding-top: 10px;
 }
 
@@ -229,6 +232,10 @@ input {
     margin-top: -10px;
 }
 
+#mypic {
+    width: 40%;
+}
+
 
 /* Blog */
 
@@ -238,7 +245,7 @@ input {
 }
 
 #eb110-pic {
-    width: 616px;
+    width: 85%;
 }
 
 #eb110 div {
