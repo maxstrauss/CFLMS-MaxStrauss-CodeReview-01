@@ -29,7 +29,8 @@ header {
     margin-right: 0%;
     margin-top: -14%;
 }
-#logo-div{
+
+#logo-div {
     padding-right: 7.5%;
     padding-left: 0%;
     width: 35%;
@@ -37,20 +38,20 @@ header {
     float: right;
 }
 
-#banner-text{
+#banner-text {
     margin-left: -4%;
 }
 
-.navbar {
+nav {
     background-color: #c65252;
     height: 43px;
     width: 39%;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
-.navbar ul {
+nav ul {
     margin-top: 0px;
     list-style-type: none;
     margin: 0;
@@ -59,17 +60,17 @@ header {
     width: 100%;
 }
 
-.navbar-links {
+#nav-links {
     float: right;
-    padding-right: 7.5%;
+    padding-right: 0%;
 
 }
 
-.navbar li {
+nav li {
     float: left;
 }
 
-.navbar li a {
+nav a {
     display: block;
     color: white;
     text-align: center;
@@ -86,6 +87,7 @@ header {
 
 .contact {
     padding-right: 63px;
+    
 }
 
 
@@ -113,7 +115,8 @@ h1 {
 
 #phone {
     width: 85.5%;
-    height: 85.5%;
+    height: 154px;
+    object-fit: cover;
 }
 
 #phone-text {
@@ -122,7 +125,7 @@ h1 {
 
 /*ATM & Scooter Pictures*/
 
-#div1 {
+#article-left {
     width: 40%;
     height: 20%;
     float: left;
@@ -138,7 +141,7 @@ h1 {
     max-width: 100%;
 }
 
-#div2 {
+#article-right {
     width: 40%;
     height: 20%;
     float: right;
@@ -151,7 +154,7 @@ h1 {
 /* Footer */
 
 
-.footer {
+footer {
     background-color: #cabbb7;
     height: 114px;
     width: 39%;
@@ -160,12 +163,12 @@ h1 {
     text-align: center;
 }
 
-.logo-footer {
+#logo-footer {
     width: 20%;
-    padding-top: 10px;
+    padding-top: 3%;
 }
 
-.footer-text {
+#footer-text {
     margin: 0px;
     text-align: center;
     height: 20px;
@@ -233,7 +236,7 @@ input {
 }
 
 #mypic {
-    width: 40%;
+    width: 30%;
 }
 
 
