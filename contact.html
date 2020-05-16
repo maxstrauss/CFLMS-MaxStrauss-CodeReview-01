@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My first website made for Codereview">
     <title>My first Website</title>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+
     <header>
         <div class="header-text">
             <span id="logo-div">
@@ -22,13 +24,11 @@
     </header>
 
     <nav>
-        <ul>
-            <div id="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a class="contact" href="#">Contact</a></li>
-            </div>
+        <ul id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a class="contact" href="#">Contact</a></li>
         </ul>
     </nav>
 
@@ -40,11 +40,11 @@
 
             First name:
             <br>
-            <input type="text" name="firstname" placeholder="First name" style="width: 233px"><br>
+            <input type="text" id="firstname" placeholder="First name"><br>
             <br>
             Last name:
             <br>
-            <input type="text" name="lastname" placeholder="Last name" style="width: 233px"><br />
+            <input type="text" id="lastname" placeholder="Last name"><br>
             <br>
             Do you like CodeFactory?: <br>
             <input type="radio" name="like" value="yes" checked>Yes<br />

@@ -1,7 +1,6 @@
 body {
     background-color: #e5e5e5;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0px;
 }
 
 
@@ -48,7 +47,6 @@ nav {
     width: 39%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 nav ul {
@@ -57,13 +55,11 @@ nav ul {
     margin: 0;
     padding: 0;
     top: 0.5em;
-    width: 100%;
 }
 
 #nav-links {
     float: right;
     padding-right: 0%;
-
 }
 
 nav li {
@@ -87,7 +83,6 @@ nav a {
 
 .contact {
     padding-right: 63px;
-    
 }
 
 
@@ -165,7 +160,7 @@ footer {
 
 #logo-footer {
     width: 20%;
-    padding-top: 3%;
+    padding-top: 1.5%;
 }
 
 #footer-text {
@@ -193,23 +188,29 @@ footer {
     margin-bottom: 20px;
 }
 
+#firstname {
+    width: 45%
+}
+
+#lastname {
+    width: 45%
+}
+
 select {
-    width: 233px;
+    width: 45%;
     background-color: #cabbb7;
 }
 
 input {
     background-color: #cabbb7;
-
 }
 
 #submitbutton {
     background-color: #c65252;
-
 }
 
 #contact-message {
-    width: 233px;
+    width: 45%;
     height: 200px;
     max-width: 39%;
 }
