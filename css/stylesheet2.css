@@ -108,12 +108,12 @@ h1 {
 
 /*ATM & Scooter Pictures*/
 
+
 #div1{
     width: 40%;
     height: 20%;
     float: left;
-    margin-left: 7.5%;
-    font-weight: bold;
+    margin-left: 5%;
 }
 
 #atm{
@@ -128,8 +128,8 @@ h1 {
     width: 40%;
     height: 20%;
     float: right;
-    margin-right: 7.5%;
-    font-weight: bold;
+    margin-right: 5%;
+
 }
 
 
